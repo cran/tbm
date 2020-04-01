@@ -1,7 +1,7 @@
-ec3891cae570af145c65bf678914ccea *DESCRIPTION
+651d716602f89eca1ae4e3a0ddbb9c94 *DESCRIPTION
 3db92c69d0885339405604eb8a76fb10 *NAMESPACE
 d5f02c9ba4bef5fe4b7da2178eee35bd *R/tbm.R
-37f763ac4c1cf1751092a4f328fab773 *build/vignette.rds
+c9f86087cb183233bbdeda1f9a3b83c7 *build/vignette.rds
 510c61326c3069ae4ba426478590c0cb *cleanup
 1abda8184ab4bc3cc188666a3abda3a5 *inst/CITATION
 d8ef0b361ffa36b130b7dda8191f3e2c *inst/NEWS.Rd
@@ -30,7 +30,7 @@ a4926778362c1381056814a91e8d88f6 *inst/applications/setup.R
 c9f0c7ab6122fceb94cf0cd44fe0c0c6 *inst/applications/tab.R
 104cc7c33c6ab5932db6157a3e2767c0 *inst/doc/tbm_supplement.R
 7432d80b00f4e9123591db991c43ac36 *inst/doc/tbm_supplement.Rnw
-91413e7e6858724a17b61b5ee6db8ae0 *inst/doc/tbm_supplement.pdf
+2625468020753b336464b989ef6e1e14 *inst/doc/tbm_supplement.pdf
 c1fe0d8f45255e67696f511f8da8397e *inst/simulations/Makefile.sim
 66f9660a01c60f45245eb74f3681eed1 *inst/simulations/ctm_gam.R
 7fc15bcefb97ac85c1b81c8dc503000f *inst/simulations/ctm_gam.rda

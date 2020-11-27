@@ -385,7 +385,7 @@ plot(-risk(bm), xlab = "Boosting Iteration", ylab = "Log-likelihood", type = "l"
 ## ----bodyfat-pit, echo = FALSE, fig.width = 5, fig.height = 5------------
 pitplot(bm, ldata, main = ds[file])
 
-## ----bodyfat-ctmplot, echo = FALSE, fig.width = 6, fig.height = 6--------
+## ----bodyfat-ctmplot, echo = FALSE, fig.width = 6, fig.height = 6, dev = "png"----
 plot.ctm(bm, ylab = "Body Fat Mass")
 
 ## ----bodyfat-prop, echo = FALSE------------------------------------------
@@ -590,10 +590,10 @@ bm <- ctmboost(m_mlt, formula = fm_gam[["ctm"]], data = ldata,
 ## ----heads-risk, echo = FALSE, cache = TRUE------------------------------
 plot(-risk(bm), xlab = "Boosting Iteration", ylab = "Log-likelihood", type = "l")
 
-## ----heads-pit, echo = FALSE, fig.width = 5, fig.height = 5, cache = TRUE----
+## ----heads-pit, echo = FALSE, fig.width = 5, fig.height = 5, cache = TRUE, dev = "png"----
 pitplot(bm, ldata, main = ds[file])
 
-## ----heads-plot, fig.width = 6, fig.height = 4, echo = FALSE-------------
+## ----heads-plot, fig.width = 6, fig.height = 4, echo = FALSE, dev = "png"----
 l <- with(db, seq(from = min(lage), to = max(lage), length = 100))
 q <- mkgrid(m_mlt, n = 200)[[1]]
 pr <- expand.grid(head = q, lage = l^3)
@@ -830,7 +830,7 @@ cf <- coef(m4)
 cf[] <- c(cf0, cf1, cf2, cf21)
 coef(m4) <- cf
 
-## ----plot-dgp, echo = FALSE,  fig.width = 6, fig.height = 8--------------
+## ----plot-dgp, echo = FALSE,  fig.width = 6, fig.height = 8, dev = "png"----
 
 xlim <- c(-5, 5)
 q <- mkgrid(m1, n = 500)[["y"]]

@@ -1,10 +1,10 @@
-a89aa78c7499ba710c10735a25ce9056 *DESCRIPTION
+bf6c6a2ae936f1ab2514e6128cbeb38e *DESCRIPTION
 3db92c69d0885339405604eb8a76fb10 *NAMESPACE
 d5f02c9ba4bef5fe4b7da2178eee35bd *R/tbm.R
-f34d9161201cdbd4fe162d5c424bf46c *build/vignette.rds
+cad822a67d7c1de65dc780017e0701bf *build/vignette.rds
 510c61326c3069ae4ba426478590c0cb *cleanup
 1abda8184ab4bc3cc188666a3abda3a5 *inst/CITATION
-53dfe3c139bf0c41898c3b12a7244c5a *inst/NEWS.Rd
+889143c2faa2c649d861b145a8581d40 *inst/NEWS.Rd
 124a2ad40cb8ab06e5e803efb8812d7c *inst/README.txt
 cc71ec2c085abf56089c023d44dd7a2e *inst/applications/Makefile.app
 429bf73ce3b51307c32534ce7bff3df1 *inst/applications/ex_ALSFRS.R
@@ -30,7 +30,7 @@ a4926778362c1381056814a91e8d88f6 *inst/applications/setup.R
 c9f0c7ab6122fceb94cf0cd44fe0c0c6 *inst/applications/tab.R
 f6faa2324fee865de3c0393010b2b37d *inst/doc/tbm_supplement.R
 ece3d0c4bf43a922010551aac04b4c52 *inst/doc/tbm_supplement.Rnw
-700414c36c5d11f815aa47e9566f0c41 *inst/doc/tbm_supplement.pdf
+fe345731453f001739f15dad78e20f0f *inst/doc/tbm_supplement.pdf
 c1fe0d8f45255e67696f511f8da8397e *inst/simulations/Makefile.sim
 66f9660a01c60f45245eb74f3681eed1 *inst/simulations/ctm_gam.R
 7fc15bcefb97ac85c1b81c8dc503000f *inst/simulations/ctm_gam.rda
@@ -53,8 +53,8 @@ e3329e2221a44d43a10693f56393a4ad *inst/simulations/tram_gam.rda
 0011aff351481f2b9e7bd289e1a5990f *man/ctmboost.Rd
 e7b17cd6ff756d5e433c847642af6903 *man/stmboost.Rd
 f5fa9fd0f06bee74f8f5b95bee53e2f6 *tests/Rplots.pdf
-470f320535f2945c5a8c3b9504355be8 *tests/bodyfat.R
-6c87c514c92691e34a7cd0a293ce2064 *tests/bodyfat.Rout.save
+37ddbd5dd45917fd64b87d98027859d2 *tests/bodyfat.R
+cee38b0df648e8f5486d9591adc5171c *tests/bodyfat.Rout.save
 134ab517922741c6a39c092b9127b46a *vignettes/appl.bib
 9425ac889fbdb0a1287800a642c9df44 *vignettes/defs.tex
 d99a87d66b1c56763430accefb7ae216 *vignettes/mlt.bib

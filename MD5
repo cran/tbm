@@ -1,10 +1,10 @@
-a441e8dc56982d62b92e55f7de01d4c4 *DESCRIPTION
+80ed76d5db4fc926ba637b8a8a20eaf2 *DESCRIPTION
 3db92c69d0885339405604eb8a76fb10 *NAMESPACE
 d5f02c9ba4bef5fe4b7da2178eee35bd *R/tbm.R
-ca18bb52aa01248270fa6e9dd74dce70 *build/vignette.rds
+972a9e4b832e298b147db184298951c7 *build/vignette.rds
 510c61326c3069ae4ba426478590c0cb *cleanup
 2cc4dc2333b75750f1d3a1d43c276a2a *inst/CITATION
-2370655245e73a03d2472c7c1de8b92e *inst/NEWS.Rd
+83414eb724f271e9c2d11f14b0fd006c *inst/NEWS.Rd
 124a2ad40cb8ab06e5e803efb8812d7c *inst/README.txt
 cc71ec2c085abf56089c023d44dd7a2e *inst/applications/Makefile.app
 429bf73ce3b51307c32534ce7bff3df1 *inst/applications/ex_ALSFRS.R
@@ -28,9 +28,9 @@ d9a364a12f72bbad8bf52169038d0c7b *inst/applications/ex_plasma.R
 a4926778362c1381056814a91e8d88f6 *inst/applications/setup.R
 9441828794521966cb4807fd582eb1cc *inst/applications/summary.R
 c9f0c7ab6122fceb94cf0cd44fe0c0c6 *inst/applications/tab.R
-f6faa2324fee865de3c0393010b2b37d *inst/doc/tbm_supplement.R
+479175020bf89507f6eb6559415b9eba *inst/doc/tbm_supplement.R
 ece3d0c4bf43a922010551aac04b4c52 *inst/doc/tbm_supplement.Rnw
-f25804ae5f734341923a2847c92b82e1 *inst/doc/tbm_supplement.pdf
+0d8b080f64305cbfa0c248c32a31a92b *inst/doc/tbm_supplement.pdf
 c1fe0d8f45255e67696f511f8da8397e *inst/simulations/Makefile.sim
 66f9660a01c60f45245eb74f3681eed1 *inst/simulations/ctm_gam.R
 7fc15bcefb97ac85c1b81c8dc503000f *inst/simulations/ctm_gam.rda

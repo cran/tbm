@@ -127,17 +127,17 @@ plot.ctm <- function(x, which = sort(unique(selected(object))),
 ### source("movie.R")
 
 ## ----riskplot, eval = FALSE, echo = FALSE--------------------------------
-#  x <- risk[,mor] - ll0
-#  med <- apply(x, 2, median, na.rm = TRUE)
-#  boxplot(x, axes = FALSE, main = ds[file], outline = FALSE, var.width = TRUE,
-#          ylab = "Out-of-sample log-likelihood (centered)", col = col[(med == max(med)) + 1],
-#          ylim = ylim)
-#  abline(v = c(3.5, 6.5), col = "lightgrey")
-#  abline(h = 0, col = "lightgrey")
-#  abline(h = max(med), col = col[2])
-#  axis(1, at = 1:ncol(x), labels = models[colnames(x)])
-#  axis(2)
-#  box()
+# x <- risk[,mor] - ll0
+# med <- apply(x, 2, median, na.rm = TRUE)
+# boxplot(x, axes = FALSE, main = ds[file], outline = FALSE, var.width = TRUE,
+#         ylab = "Out-of-sample log-likelihood (centered)", col = col[(med == max(med)) + 1],
+#         ylim = ylim)
+# abline(v = c(3.5, 6.5), col = "lightgrey")
+# abline(h = 0, col = "lightgrey")
+# abline(h = max(med), col = col[2])
+# axis(1, at = 1:ncol(x), labels = models[colnames(x)])
+# axis(2)
+# box()
 
 ## ----beetles-results, echo = FALSE, fig.width = 7, fig.height = 6--------
 load(file.path(dir, file <- "ex_beetles.rda"))
@@ -473,12 +473,12 @@ plot(as.mlt(m_mlt), newdata = data.frame(1), type = "survivor", K = 200,
      xlab = "Time (in days)", ylab = "Time", col = "black")
 
 ## ----CAO-model, cache = TRUE, eval = FALSE-------------------------------
-#  fm_glm[["stm"]]
-#  bm <- stmboost(m_mlt, formula = fm_glm[["stm"]], data = ldata,
-#                 method = quote(mboost::mboost))[963]
+# fm_glm[["stm"]]
+# bm <- stmboost(m_mlt, formula = fm_glm[["stm"]], data = ldata,
+#                method = quote(mboost::mboost))[963]
 
 ## ----CAO-mlt, cache = TRUE, eval = FALSE---------------------------------
-#  bmCoxPH <- mboost(fm_glm[["stm"]], data = ldata, family = CoxPH())[963]
+# bmCoxPH <- mboost(fm_glm[["stm"]], data = ldata, family = CoxPH())[963]
 
 ## ----india-results, echo = FALSE, fig.width = 6, fig.height = 6----------
 load(file.path(dir, file <- "ex_india.rda"))
@@ -544,9 +544,9 @@ plot(as.mlt(m_mlt), newdata = data.frame(1), type = "density", K = 200,
      xlab = "Stunting", ylab = "Density", col = "black")
 
 ## ----india-model, cache = TRUE, eval = FALSE-----------------------------
-#  fm_tree
-#  bm <- ctmboost(m_mlt, formula = fm_tree, data = ldata,
-#                 method = quote(mboost::blackboost))[515]
+# fm_tree
+# bm <- ctmboost(m_mlt, formula = fm_tree, data = ldata,
+#                method = quote(mboost::blackboost))[515]
 
 ## ----heads-results, echo = FALSE, fig.width = 7, fig.height = 6----------
 load(file.path(dir, file <- "ex_heads.rda"))
@@ -755,13 +755,13 @@ plot(as.mlt(m_mlt), newdata = data.frame(1), type = "survivor", K = 200,
      xlab = "ALS Overall Survival (in days)", ylab = "Probability", col = "black")
 
 ## ----ALSsurv-model, cache = TRUE, eval = FALSE---------------------------
-#  fm_tree
-#  bm <- stmboost(m_mlt, formula = fm_tree, data = ldata,
-#                 control = boost_control(nu = 0.01),
-#                 method = quote(mboost::blackboost))[451]
+# fm_tree
+# bm <- stmboost(m_mlt, formula = fm_tree, data = ldata,
+#                control = boost_control(nu = 0.01),
+#                method = quote(mboost::blackboost))[451]
 
 ## ----ALSsurv-mlt, cache = TRUE, eval = FALSE, eval = FALSE---------------
-#  blackboost(fm_tree, data = ldata, family = CoxPH())
+# blackboost(fm_tree, data = ldata, family = CoxPH())
 
 ## ----dgp-----------------------------------------------------------------
 library("tram")
@@ -891,10 +891,10 @@ grid.text(expression(x), 0.5, 1.07, hjust=0.5, vjust=1)
 trellis.unfocus()
 
 ## ----simulate, eval = FALSE----------------------------------------------
-#  y1 <- simulate(m1, newdata = d, n = 100)
-#  y2 <- simulate(m2, newdata = d, n = 100)
-#  y3 <- simulate(m3, newdata = d, n = 100)
-#  y4 <- simulate(m4, newdata = d, n = 100)
+# y1 <- simulate(m1, newdata = d, n = 100)
+# y2 <- simulate(m2, newdata = d, n = 100)
+# y3 <- simulate(m3, newdata = d, n = 100)
+# y4 <- simulate(m4, newdata = d, n = 100)
 
 ## ----dgp-setup, echo = FALSE---------------------------------------------
 dir <- system.file("simulations", package = "tbm")

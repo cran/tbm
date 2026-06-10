@@ -2,6 +2,13 @@
 \name{NEWS}
 \title{NEWS file for the \pkg{tbm} package}
 
+\section{Changes in Version 0.3-11 (2026-06-10)}{
+  \itemize{
+    \item LaTeX issues
+    }
+}
+
+
 \section{Changes in Version 0.3-10 (2025-12-02)}{
   \itemize{
     \item LaTeX issues

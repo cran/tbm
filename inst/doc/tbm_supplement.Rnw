@@ -89,8 +89,7 @@ based on artificial data generating processes are presented.
   Institut f\"ur Epidemiologie, Biostatistik und Pr\"avention \\
   Universit\"at Z\"urich \\
   Hirschengraben 84, CH-8001 Z\"urich, Switzerland \\
-  \texttt{Torsten.Hothorn@uzh.ch} \\
-  \url{http://tiny.uzh.ch/bh} \\
+  \texttt{Torsten.Hothorn@R-project.org} \\
 }
 
 \begin{document}
@@ -1115,7 +1114,7 @@ vars <- names(mf)[-1]
 @
 
 This data origines from the PRO-ACT Prize4Life challenge 2012
-(\url{http://prize4life.org.il/en/prediction-prize/}), comprising clinical
+(\url{https://en.wikipedia.org/wiki/Prize4Life}), comprising clinical
 trials data from $N = \Sexpr{N}$ patients suffering Amypthropic Lateral
 Sclerosis (ALS). The response is the ALS-Functional Rating Scale (ALSFRS)
 six months after diagnosis. For each patient, $\Sexpr{p}$ ($\Sexpr{p - xf}$ 
